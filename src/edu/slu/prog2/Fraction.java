@@ -1,23 +1,38 @@
 package edu.slu.prog2;
 
-
+/**
+ * Represents a fraction with a numerator and a denominator.
+ */
 public class Fraction {
     private int numerator;
     private int denominator;
 
-    // Default constructor
+    /**
+     * Constructs a new Fraction object with a default numerator of 0 and a default denominator of 1. The default constructor
+     */
     public Fraction(){
         numerator = 0;
         denominator = 1;
     }
 
+    /**
+     * Constructs a new Fraction object that is a copy of the specified Fraction object.
+     *
+     * @param fraction the Fraction object to copy
+     */
     public Fraction(Fraction fraction) {
         this.numerator = fraction.getNumerator();
         this.denominator = fraction.getDenominator();
     }
 
 
-    // Constructor with parameters
+    /**
+     * Constructs a new Fraction object with the specified numerator and denominator.
+     *
+     * @param numerator the numerator of the fraction
+     * @param denominator the denominator of the fraction
+     * @throws ArithmeticException if the denominator is zero
+     */
     public Fraction(int numerator, int denominator){
         if (denominator == 0){
             throw new ArithmeticException();
