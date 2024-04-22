@@ -61,7 +61,7 @@ Provides a GUI for performing fraction calculations, including reducing fraction
 
 1. **Clone the Repository:**
     ```bash
-    git clone <https://github.com/Hendrizzzz/Computer-Programming-2-Midterm-Project-1-CALCULATOR-APP>
+    git clone https://github.com/Hendrizzzz/Computer-Programming-2-Midterm-Project-1-CALCULATOR-APP
     ```
 
 2. **Navigate to the Project Directory:**
