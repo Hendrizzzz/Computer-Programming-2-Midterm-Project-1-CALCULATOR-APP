@@ -57,11 +57,25 @@ Provides a GUI for performing fraction calculations, including reducing fraction
 
 - Java Development Kit (JDK) installed on the system.
 
-## Usage
+## How to Run
 
-1. Compile the `FractionTester.java` file using a Java compiler.
-2. Run the compiled program using the Java interpreter.
-3. Follow on-screen instructions to choose the desired operation and input fractions.
+1. **Clone the Repository:**
+    ```bash
+    git clone <[repository_url](https://github.com/Hendrizzzz/Computer-Programming-2-Midterm-Project-1-CALCULATOR-APP)>
+    ```
+
+2. **Navigate to the Project Directory:**
+    ```bash
+    cd Computer-Programming-2-Midterm-Project-1-CALCULATOR-APP
+    ```
+
+3. **Compile and Run the Program:**
+    ```bash
+    javac edu/slu/prog2/*.java
+    java edu.slu.prog2.FractionTester
+    ```
+
+
 
 ## Note
 
