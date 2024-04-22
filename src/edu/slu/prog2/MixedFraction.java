@@ -1,5 +1,9 @@
 package edu.slu.prog2;
 
+/**
+ * Represents a mixed fraction, which is a combination of a whole number and a proper fraction.
+ * Inherits from the Fraction class.
+ */
 public class MixedFraction extends Fraction {
     private int whole;
 
@@ -58,6 +62,12 @@ public class MixedFraction extends Fraction {
         whole = 0;
     }
 
+    /**
+     * Sets the whole part of the mixed fraction.
+     * If the numerator is negative and the whole part is non-zero, adjusts the sign of both the whole part and numerator.
+     *
+     * @param whole the whole part of the mixed fraction
+     */
     public void setWholePart(int whole){
         if (getNumerator() < 0 && whole != 0){
             this.whole = -whole;
@@ -243,6 +253,11 @@ public class MixedFraction extends Fraction {
 
 
 
+    /**
+     * Returns a string representation of the mixed fraction.
+     *
+     * @return a string representation of the mixed fraction
+     */
     @Override
     public String toString(){
         if (whole == 0 && getNumerator() == 0){
